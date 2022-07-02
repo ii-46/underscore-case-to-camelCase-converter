@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form div {
+  padding-top: 10px;
+  display: grid;
+  justify-items: center;
+}
+
+form div textarea {
+  width: 68%;
+  box-sizing: border-box;
+  padding: 1%;
+}
+form div textarea::placeholder {
+  text-align: center;
+}
+
+.result-container {
+  display: grid;
+  justify-items: center;
+  padding: 2%;
+}
+
+li {line-height: 2;
+  list-style: none;
+  list-style-position: inside;
+}
+h2 {
+  font-weight: 200;
+}
+.result {
+  display: flex;
+  border: 1px solid black;
+  padding: 1%;
+  width: 70%;
+  height: 200px;
+  overflow: scroll;
+}
+.result div {
+  width: 50%;
+}
